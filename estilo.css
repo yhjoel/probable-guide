@@ -1,0 +1,102 @@
+body {
+    background-image: url(tri.gif);
+
+}
+
+input[type="number"] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+button {
+    background-color: #ff7d7d8c;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+
+.con {
+    background-color: #0000007a;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.ti {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 20px;
+    border-radius: 25px;
+
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(255, 238, 0), 0 0 30px #ffae00, 0 0 40px #ff5e00, 0 0 50px #e60000, 0 0 60px #e6003a, 0 0 70px #e600b4;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px #4df3ff, 0 0 40px #4dffa6, 0 0 50px #4dff6b, 0 0 60px #bbff4d, 0 0 70px #f3ff4d, 0 0 80px #ffb24d;
+    }
+  }
+
+  .d {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.466);
+    padding: 20px;
+    border-radius: ;
+
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 50px #fff, 0 0 30px #ff4d4d ;
+    }
+    
+    to {
+      text-shadow: 0 0 50px rgb(255, 255, 255), 0 0 30px #9ef9ff;
+    }
+  }
+  img{
+    width: 100%;
+    position: center;
+    border-radius: 15px;
+  }
+  @media only screen and (max-width: 550px){
+    body {
+      background-color: #ff5e00;
+  background-image: url(bk.jpg) ;
+  }
+  }
